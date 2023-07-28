@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(22, 22, 22);
+}
+
+
+.head {
+    height: 20vh;
+}
+
+.head h1 {
+    font-family: righteous;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    font-size: 55pt;
+
+}
+
+section {
+    background: url(/images/pexels-shawn-stutzman-1010496.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+    gap: 5vh;
+}
+
+#contactme {
+    height: 40vh;
+    width: 45%;
+}
+
+#contactme .cont-cont {
+    background-color: none;
+}
+
+#contactme .cont-cont h4 {
+    color: rgb(192, 155, 110);
+    font-family: Ubuntu Light;
+    margin-left: 20px;
+    font-size: 14pt;
+    line-height: 7vh;
+}
+
+#contactme .cont-cont p {
+    color: #fff;
+    font-family: Tw cen mt;
+    margin-left: 20px;
+    font-size: 15pt;
+}
+
+
+#form {
+    height: 40vh;
+    width: 45%;
+    display: flex;
+    background-color: none;
+}
+
+#form form {
+    display: inline;
+}
+
+#form form label input,
+textarea {
+    background: rgb(34, 34, 34);
+    width: 100%;
+    color: black;
+    padding: 17px;
+    margin: 7px;
+    border: none;
+    border-radius: 40px;
+}
+
+#form form label textarea {
+    height: 100px;
+}
+
+#form form label input,
+textarea::placeholder {
+    font-family: yatra one;
+    color: rgb(113, 113, 113);
+    font-size: 13pt;
+}
+
+#form form label input,
+textarea:focus {
+    color: #fff;
+    font-family: tw cen mt;
+    font-size: 13pt;
+}
+
+#form form button {
+    background: rgb(192, 155, 110);
+    width: 200px;
+    padding: 5px;
+    border-radius: 40px;
+    border: none;
+    margin-left: 15px;
+    margin-top: 20pt;
+}
+
+#form form button {
+    color: white;
+    font-family: Amita;
+    font-size: 14pt;
+}
+
+footer {
+    margin-top: 15vh;
+    left: 0;
+    bottom: 0;
+    height: 22vh;
+    width: 100%;
+    background: rgb(15, 15, 15);
+    text-align: center;
+}
+
+footer h2 {
+    font-family: impact;
+    color: #fff;
+    font-size: 45pt;
+    font-weight: 400;
+}
+
+footer a img {
+    width: 5vh;
+}
+
+footer a img:hover {
+    width: 5vh;
+    background-color: green;
+    border-radius: 50%;
+    height: 5vh;
+    transition: 0.2s;
+
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+    margin-top: 10px;
+
+}
+
+footer .social-cont {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 5vh;
+    height: 5vh;
+}
+
+footer p {
+    color: #fff;
+    font-family: sofia;
+    margin-top: 16px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: rgb(22, 22, 22);
+    }
+
+
+    .head {
+        height: 20vh;
+    }
+
+    .head h1 {
+        font-family: righteous;
+        color: rgb(34, 34, 34);
+        text-align: center;
+        font-size: 55pt;
+
+    }
+
+    section {
+        background: url(/images/pexels-shawn-stutzman-1010496.jpg);
+        margin-left: auto;
+        margin-right: auto;
+        width: 98%;
+        height: fit-content;
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
+
+    }
+
+    #contactme {
+        height: 40vh;
+        width: 100%;
+    }
+
+    #contactme .cont-cont {
+        background-color: none;
+    }
+
+    #contactme .cont-cont h4 {
+        color: rgb(192, 155, 110);
+        font-family: Ubuntu Light;
+        margin-left: 20px;
+        font-size: 14pt;
+        line-height: 7vh;
+        text-align: center;
+    }
+
+    #contactme .cont-cont p {
+        color: #fff;
+        font-family: Tw cen mt;
+        margin-left: 20px;
+        font-size: 13pt;
+        text-align: center;
+    }
+
+
+    #form {
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        background-color: none;
+    }
+
+    #form form {
+        display: inline;
+        width: 97%;
+    }
+
+    #form form label input,
+    textarea {
+        background: rgb(34, 34, 34);
+        width: 100%;
+        color: black;
+        padding: 10px;
+        margin: 7px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    #form form label textarea {
+        height: 80px;
+    }
+
+    #form form label input,
+    textarea::placeholder {
+        font-family: yatra one;
+        color: rgb(113, 113, 113);
+        font-size: 13pt;
+    }
+
+    #form form label input,
+    textarea:focus {
+        color: #fff;
+        font-family: tw cen mt;
+        font-size: 13pt;
+    }
+
+    #form form button {
+        background: rgb(192, 155, 110);
+        width: 150px;
+        padding: 5px;
+        border-radius: 40px;
+        border: none;
+        margin-top: 10pt;
+        display: block;
+        margin: auto;
+
+    }
+
+    #form form button {
+        color: white;
+        font-family: Amita;
+        font-size: 12pt;
+    }
+
+
+}
